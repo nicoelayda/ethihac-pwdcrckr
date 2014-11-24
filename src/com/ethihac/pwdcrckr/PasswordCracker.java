@@ -1,14 +1,11 @@
 package com.ethihac.pwdcrckr;
 
-import org.apache.commons.codec.binary.Base64;
 import org.apache.commons.codec.digest.Crypt;
-import org.apache.commons.codec.digest.DigestUtils;
 
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
 
 public class PasswordCracker {

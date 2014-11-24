@@ -34,8 +34,6 @@
 
 package com.ethihac.pwdcrckr;
 
-import javax.xml.crypto.Data;
-
 public class ShadowFileEntry {
 
     private static final int USERNAME_FIELD = 0;
