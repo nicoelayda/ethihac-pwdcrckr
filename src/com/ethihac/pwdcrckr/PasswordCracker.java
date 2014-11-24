@@ -76,7 +76,7 @@ public class PasswordCracker {
 
         // Process each user
         for (int i = 0; i < passwd.size(); i++) {
-            if (passwd.get(i).getUserId() >= 1000 && shadow.get(i).hasPassword()) {
+            if (passwd.get(i).getUserId() > 1000 && shadow.get(i).hasPassword()) {
                 String password = null;
 
                 String id = shadow.get(i).getId();
